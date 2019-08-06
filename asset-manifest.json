@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cellphones/static/css/main.c3776835.chunk.css",
+    "main.js": "/cellphones/static/js/main.f0ac9a14.chunk.js",
+    "main.js.map": "/cellphones/static/js/main.f0ac9a14.chunk.js.map",
+    "runtime~main.js": "/cellphones/static/js/runtime~main.7453f730.js",
+    "runtime~main.js.map": "/cellphones/static/js/runtime~main.7453f730.js.map",
+    "static/js/2.d926ad31.chunk.js": "/cellphones/static/js/2.d926ad31.chunk.js",
+    "static/js/2.d926ad31.chunk.js.map": "/cellphones/static/js/2.d926ad31.chunk.js.map",
+    "index.html": "/cellphones/index.html",
+    "precache-manifest.09b37ad6cc34e93a73b5c36404dcef29.js": "/cellphones/precache-manifest.09b37ad6cc34e93a73b5c36404dcef29.js",
+    "service-worker.js": "/cellphones/service-worker.js",
+    "static/css/main.c3776835.chunk.css.map": "/cellphones/static/css/main.c3776835.chunk.css.map"
+  }
+}
