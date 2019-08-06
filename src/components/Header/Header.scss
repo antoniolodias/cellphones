@@ -1,0 +1,36 @@
+.Header {
+  position: sticky;
+  top: 0;
+  height: 100px;
+  background-color: tomato;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  box-sizing: border-box;
+  input {
+    background-color: transparent;
+    color: rgb(69,69,69);
+    height: 30px;
+    width: 50%;
+    min-width: 300px;
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    border-bottom: rgb(69,69,69) 1px solid;
+    outline: none;
+  }
+  .search-fields {
+    button {
+      height: 20px;
+      padding: 3px 10px;
+      border-radius: 10px;
+      margin-right: 10px;
+      font-weight: 600;
+      outline: none;
+      &:hover{
+        cursor: pointer;
+        color: tomato;
+      }
+    }
+  }
+}

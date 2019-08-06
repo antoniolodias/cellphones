@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+
+  background: linear-gradient(30deg, rgb(30,30,30) 70%, rgb(69,69,69) 90%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .boards {
+    overflow: hidden;
+    max-width: 1300px;
+    min-width: 750px;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .left-board, .right-board {
+      width: 47%;
+      border-radius: 30px;
+      background-color: black;
+    }
+    .left-board {
+      position: relative;
+      overflow-y: scroll;
+      .error {
+        color: rgb(221, 221, 221);
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }
+      .loading{
+        color: rgb(221, 221, 221);
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+        font-size: 50px;
+        font-weight: 600;
+      }
+    }
+    .right-board {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+      .icon-phone {
+        background-color: tomato;
+        height: 200px;
+        width: 200px;
+        border-radius: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          height: 50%
+        }
+      }
+    }
+  }
+}
